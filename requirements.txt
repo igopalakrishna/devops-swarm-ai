@@ -1,0 +1,26 @@
+# === Vertex AI SDK ===
+google-cloud-aiplatform>=1.47.0
+
+# === LangChain and LangGraph ===
+langchain>=0.1.20  # Full LangChain (not just core) for agent tool support
+langchain-core>=0.1.41
+langchain-google-vertexai>=1.0.1
+langgraph>=0.0.43
+
+# === CrewAI Framework ===
+crewai>=0.20.2  # Required for @CrewBase, agents, tasks, etc.
+
+# === Tracing (Optional but used in your project) ===
+traceloop-sdk>=0.3.3  # Match your API calls if you're using Traceloop
+
+# === Utils ===
+requests
+python-dotenv
+pyyaml
+
+# === Agent DevKit ===
+agent-starter-pack @ git+https://github.com/GoogleCloudPlatform/agent-starter-pack.git
+
+# === FastAPI Server ===
+fastapi
+uvicorn
